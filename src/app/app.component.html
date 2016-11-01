@@ -1,4 +1,21 @@
 <main>
-  <h1>Hello from Angular App with Webpack</h1>
+  <h1>bike tracker</h1>
+
+    <form action="">
+        <div>
+            <label for="title">Title</label>
+            <input type="text" name="title" #newtitle>
+        </div>
+        <div>
+            <label for="distance">Distance</label>
+            <input type="text" name="distance" #newdistance>
+        </div>
+        <div>
+            <input type="date">
+        </div>
+
+        <button (click)="addRide(newtitle, newdistance)">Add ride</button>
+    </form>
+
   <ride-list></ride-list>
 </main>

@@ -1,0 +1,39 @@
+{
+    "rides": [{
+        "uid": "",
+        "user": "",
+        "bike": "",
+        "title": "",
+        "date": "",
+        "distance": "",
+        "elevation": "",
+        "notes": "",
+        "trackables": [],
+        "GPX_filename": ""
+    }],
+    "bikes": [{
+        "uid": "",
+        "serial": "",
+        "manufacturer": "Trek",
+        "model": "Remedy 9 650b 2015",
+        "specs": {},
+        "owned_since": "03/2016",
+    }],
+    "trackables": [{
+        "uid": "",
+        "user": "",
+        "name": "",
+        "notes": "",
+        "attributes": {
+            "wear": 0,
+            "distance": 0,
+            "elevation": 0,
+            "threshold": 0
+        }
+    }],
+    "users": [{
+        "username": "",
+        "password": ""
+    }]
+}
+}
